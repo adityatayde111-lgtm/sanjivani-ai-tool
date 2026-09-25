@@ -20,6 +20,15 @@ const HOME_ITEMS: readonly SidebarItemDefinition[] = [
 
 const OMNI_PROXY_ITEMS: readonly SidebarItemDefinition[] = [
   {
+    id: "firewall",
+    href: "/dashboard/firewall",
+    i18nKey: "firewall",
+    labelFallback: "Prompt Injection Firewall",
+    subtitleKey: "firewallSubtitle",
+    subtitleFallback: "9-Vector Perimeter Security Defense",
+    icon: "shield",
+  },
+  {
     id: "endpoints",
     href: "/dashboard/endpoint",
     i18nKey: "endpoints",
@@ -800,7 +809,7 @@ const HELP_ITEMS: readonly SidebarItemDefinition[] = [
   },
   {
     id: "issues",
-    href: "https://github.com/diegosouzapw/OmniRoute/issues",
+    href: "https://github.com/adityatayde111-lgtm/sanjivani-ai-tool/issues",
     i18nKey: "issues",
     subtitleKey: "issuesSubtitle",
     icon: "bug_report",
