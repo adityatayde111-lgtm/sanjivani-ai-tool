@@ -3,7 +3,7 @@
  * Security Event Logger & SOC Audit Trail
  */
 
-import { SecurityEventLog, InputSourceType, AttackType, FirewallAction, SeverityLevel } from "../types";
+import { SecurityEventLog, FirewallAction } from "../types";
 
 // In-memory circular buffer for active session logs
 const MAX_LOGS = 200;

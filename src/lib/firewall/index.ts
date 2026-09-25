@@ -157,6 +157,8 @@ export async function processFirewallScan(
     analysis_timestamp: timestamp,
     execution_time_ms: totalDuration,
     pipeline_trace: pipelineTrace,
+    highlight_spans: ruleScan.highlightSpans,
+    threat_radar: ruleScan.threatRadar,
     metadata: {
       sentToAgent: decision.sentToAgent,
       redactedInstructionsCount: decision.redactedInstructions.length,

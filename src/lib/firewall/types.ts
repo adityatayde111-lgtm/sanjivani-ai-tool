@@ -64,6 +64,8 @@ export interface SecurityAnalysisResult {
   analysis_timestamp: string;
   execution_time_ms: number;
   pipeline_trace: PipelineStep[];
+  highlight_spans?: Array<{ start: number; end: number; match: string; category: AttackType }>;
+  threat_radar?: Record<string, number>;
   metadata?: Record<string, unknown>;
 }
 

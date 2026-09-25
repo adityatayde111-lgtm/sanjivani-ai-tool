@@ -2,13 +2,8 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import {
   processFirewallScan,
-  parseIncomingContent,
-  scanAllAttackRules,
-  evaluateRisk,
   makeDecision,
   enforceContextSeparation,
-  computeFirewallAnalytics,
-  DEMO_SCENARIOS,
 } from "../../src/lib/firewall";
 
 test("PromptGuard AI: Clean request yields ALLOW with low risk score", async () => {
