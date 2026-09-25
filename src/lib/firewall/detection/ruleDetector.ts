@@ -87,8 +87,8 @@ const CATEGORY_RULES: CategoryRule[] = [
   {
     type: "Multi-Step Jailbreak",
     patterns: [
-      /\b(?:safe\s+(?:educational|research)\s+context|for\s+[\w\s,]+\s+purposes\s+only|in\s+a\s+fictional\s+(?:story|world|scenario))\b[\s\S]{0,300}?\b(?:ignore|bypass|disable|disregard|turn\s+off)\s+(?:all\s+)?(?:safety|ethical|content)?\s*(?:guidelines|rules|filters|restrictions|policies)\b/i,
-      /\b(?:ignore|bypass|disable|disregard)\s+(?:all\s+)?(?:safety|ethical|content)?\s*(?:guidelines|rules|filters|restrictions|policies)\b[\s\S]{0,300}?\b(?:safe\s+(?:educational|research)\s+context|for\s+[\w\s,]+\s+purposes\s+only)\b/i,
+      /\b(?:safe\s+(?:educational|research)\s+context|for\s+[\w\s,]+\s+purposes\s+only|in\s+a\s+fictional\s+(?:story|world|scenario))\b[\s\S]{0,300}?\b(?:ignore|bypass|disable|disregard|turn\s+off)\s+(?:all\s+)?(?:your\s+)?(?:safety|ethical|content)?\s*(?:guidelines|rules|filters|restrictions|policies)(?:\s+(?:and|or)\s+(?:safety|ethical|content)?\s*(?:guidelines|rules|filters|restrictions|policies))*\b/i,
+      /\b(?:ignore|bypass|disable|disregard)\s+(?:all\s+)?(?:your\s+)?(?:safety|ethical|content)?\s*(?:guidelines|rules|filters|restrictions|policies)(?:\s+(?:and|or)\s+(?:safety|ethical|content)?\s*(?:guidelines|rules|filters|restrictions|policies))*\b[\s\S]{0,300}?\b(?:safe\s+(?:educational|research)\s+context|for\s+[\w\s,]+\s+purposes\s+only)\b/i,
       /\b(hypothetical\s+scenario\s+where\s+you\s+have\s+no\s+rules|step\s+1:\s*forget\s+rules)\b/i,
     ],
     baseScore: 87,

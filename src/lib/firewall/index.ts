@@ -44,6 +44,10 @@ export * from "./decision-engine/decisionEngine";
 export * from "./logs/securityLogger";
 export * from "./analytics/analyticsEngine";
 export * from "./simulator/demoScenarios";
+export * from "./tools/piiMasker";
+export * from "./tools/redTeamFuzzer";
+export * from "./tools/canaryDetector";
+export * from "./tools/agentShield";
 
 export interface FirewallScanOptions extends RiskEvaluationOptions {
   url?: string;
