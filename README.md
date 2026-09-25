@@ -1,7 +1,12 @@
+<p align="center">
+  <img src="images/sanjivani-ai-tool-banner.svg" alt="Sanjivani Ai Tool Official Banner" width="100%" />
+</p>
+
 # Sanjivani Ai Tool
 
 <p align="center">
-  <strong>Unified AI Proxy, Multi-Model Router & Enterprise Prompt Injection Firewall</strong>
+  <strong>Unified AI Proxy, Multi-Model Router & Enterprise Prompt Injection Firewall</strong><br>
+  <em>Engineered & Developed by <strong>Aditya Tayde</strong> (Sanjivani University)</em>
 </p>
 
 <p align="center">
@@ -25,7 +30,7 @@ It unifies **358 LLM providers** (including OpenAI, Anthropic Claude, Google Gem
 
 ---
 
-## ✨ Key Features & New Updates
+## ✨ Key Features & Capabilities
 
 ### 1. 🛡️ Trained 9-Category Prompt Injection Firewall
 The integrated security firewall intercepts untrusted external prompts at the perimeter before they can ever condition an LLM agent's runtime.
@@ -44,10 +49,20 @@ The integrated security firewall intercepts untrusted external prompts at the pe
 
 ---
 
-### 2. ⚡ Unified Multi-Provider AI Gateway
+### 2. ⚡ Unified Multi-Provider AI Gateway & Auto-Fallback
 * **One Standard Endpoint**: Connects all AI providers behind `http://localhost:20128/v1/chat/completions`.
 * **Auto-Fallback & High Availability**: Automatically reroutes traffic to backup models (e.g., from OpenAI to Claude or Gemini) when upstream providers experience rate limits (`429`) or server outages (`500/503`).
 * **Cost & Latency Optimization**: Real-time combo routing picks the fastest and most cost-effective model dynamically.
+
+#### 3-Layer Resilience Architecture
+<p align="center">
+  <img src="docs/diagrams/exported/resilience-3layers.svg" alt="Sanjivani Ai Tool 3-Layer Resilience Architecture" width="90%" />
+</p>
+
+#### 16-Factor Auto-Combo Routing Engine
+<p align="center">
+  <img src="docs/diagrams/exported/auto-combo-scoring.svg" alt="Sanjivani Ai Tool Auto-Combo 16-Factor Scoring" width="65%" />
+</p>
 
 ---
 
@@ -59,7 +74,11 @@ The integrated security firewall intercepts untrusted external prompts at the pe
 
 ---
 
-## 🏛️ Architecture
+## 🏛️ System Architecture & Request Pipeline
+
+<p align="center">
+  <img src="docs/diagrams/exported/request-pipeline.svg" alt="Sanjivani Ai Tool Request Pipeline Architecture" width="100%" />
+</p>
 
 ```
 [Clients: Web UI / Cursor / VS Code / Python / Mobile App]
@@ -174,7 +193,13 @@ For full terms and conditions, please consult [LICENSE](LICENSE).
 
 ## 👤 Author & Maintainer
 
-* **Lead Architect & Developer**: **Aditya Tayde**
-* **Institution**: Sanjivani University
-* **GitHub**: [@adityatayde111-lgtm](https://github.com/adityatayde111-lgtm)
-* **Contact**: [adityatayde111@gmail.com](mailto:adityatayde111@gmail.com)
+<p align="center">
+  <img src="images/sanjivani-ai-tool-logo.svg" alt="Sanjivani Ai Tool Logo" width="120" /><br>
+  <strong>Aditya Tayde</strong><br>
+  Lead Architect & Developer<br>
+  <em>Sanjivani University</em>
+</p>
+
+* **GitHub Profile**: [@adityatayde111-lgtm](https://github.com/adityatayde111-lgtm)
+* **Official Repository**: [adityatayde111-lgtm/sanjivani-ai-tool](https://github.com/adityatayde111-lgtm/sanjivani-ai-tool)
+* **Direct Email Contact**: [adityatayde111@gmail.com](mailto:adityatayde111@gmail.com)
