@@ -1,21 +1,34 @@
-MIT License
+Sanjivani Ai Tool Proprietary Source-Available License
+Copyright (c) 2026 Aditya Tayde. All Rights Reserved.
 
-Copyright (c) 2026 diegosouzapw
+Project: Sanjivani Ai Tool
+Author: Aditya Tayde (Sanjivani University)
+Repository: https://github.com/adityatayde111-lgtm/sanjivani-ai-tool
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted for personal, educational, and internal evaluation use of this
+software and associated documentation files (the "Software"), subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. NO REBRANDING OR WHITE-LABELING:
+   Under no circumstances may this Software, in whole or in part, be rebranded, renamed, or
+   marketed under any other brand name, trade name, or entity. The name "Sanjivani Ai Tool"
+   and the attribution to Aditya Tayde must remain prominently intact in all user-facing interfaces,
+   documentation, and source distributions.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. SOLE BRANDING OWNERSHIP:
+   The brand, architecture, concepts, and system identifiers of "Sanjivani Ai Tool" are the
+   exclusive intellectual property of Aditya Tayde. No other person, organization, company, or
+   brand may claim ownership or represent this system as their own product.
+
+3. COMMERCIAL RESTRICTIONS:
+   Commercial hosting, SaaS reselling, or public deployment of this Software under another brand
+   or service is strictly prohibited without explicit, written authorization signed by Aditya Tayde.
+
+4. PRESERVATION OF NOTICES:
+   The above copyright notice and this permission notice must be included in all copies or
+   substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
